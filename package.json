@@ -1,0 +1,20 @@
+{
+  "name": "fullstackyoutubeclone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "fullstack",
+    "youtubeclone"
+  ],
+  "author": "paban",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
