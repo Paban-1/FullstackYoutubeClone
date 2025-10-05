@@ -28,4 +28,12 @@ app.use(express.static("public"));
 // Config cookie-perser
 app.use(cookieParser());
 
+// Import User Router
+import userRouter from "./routes/user.routes.js";
+
+// User Router Middleware
+app.use("/api/v1/users", userRouter);
+
+// Our API Local URL will be : http://localhost:8000/api/v1/users/...... whatever the method (register, login logout....)
+
 export { app };
