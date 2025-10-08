@@ -1,5 +1,5 @@
 // Custome APIResponse class for sending standardized Responses
-class APIResponse {
+class ApiResponse {
   constructor(statusCode, data, message = "Success") {
     ((this.statusCode = statusCode),
       (this.data = data),
@@ -7,3 +7,4 @@ class APIResponse {
     this.sucess = statusCode < 400;
   }
 }
+export { ApiResponse };
