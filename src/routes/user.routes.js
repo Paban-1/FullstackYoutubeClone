@@ -23,6 +23,11 @@ router.route("/register").post(
       maxCount: 1,
     },
   ]),
+  // (req,res)=>{
+  //   console.log("FILES:", req.files);
+  //   console.log("BODY:", req.body);
+  //   res.json({ files: req.files, body: req.body });
+  // },
   registerUser
 );
 // Here our API Local URL will be : http://localhost:8000/api/v1/users/register

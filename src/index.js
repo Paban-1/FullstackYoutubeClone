@@ -9,7 +9,7 @@ import dotenv from "dotenv";
 
 // Configure dotenv to load environment variables from a specific file (./env).
 dotenv.config({
-  path: "./env",
+  path: "./.env",
 });
 
 // Call connectDB to establish a connection to the database.
